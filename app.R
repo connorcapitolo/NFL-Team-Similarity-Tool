@@ -1,3 +1,9 @@
+if (!requireNamespace("plotly", quietly = TRUE)) {install.packages("plotly")}
+if (!requireNamespace("nflfastR", quietly = TRUE)) {install.packages("nflfastR")}
+if (!requireNamespace("tidyverse", quietly = TRUE)) {install.packages("tidyverse")}
+if (!requireNamespace("gt", quietly = TRUE)) {install.packages("gt")}
+if (!requireNamespace("dbscan", quietly = TRUE)) {install.packages("dbscan")}
+if (!requireNamespace("zoo", quietly = TRUE)) {install.packages("zoo")}
 library(plotly)
 library(nflfastR)
 library(tidyverse)
