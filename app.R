@@ -4,12 +4,14 @@ if (!requireNamespace("tidyverse", quietly = TRUE)) {install.packages("tidyverse
 if (!requireNamespace("gt", quietly = TRUE)) {install.packages("gt")}
 if (!requireNamespace("dbscan", quietly = TRUE)) {install.packages("dbscan")}
 if (!requireNamespace("zoo", quietly = TRUE)) {install.packages("zoo")}
+if (!requireNamespace("gtExtras", quietly = TRUE)) {install.packages("gtExtras")}
 library(plotly)
 library(nflfastR)
 library(tidyverse)
 library(gt)
 library(dbscan)
 library(zoo)
+library(gtExtras)
 
 #loads play by play data
 pbp <- load_pbp(c(2006:2023)) %>% 
