@@ -10,11 +10,11 @@ A step-by-step guide to running the Shiny App in R
 ```
 > install.packages("shiny")
 ```
-3. Load the shiny library: 
+1. Load the shiny library: 
 ```
 > library(shiny)
 ```
-4. Run the shiny app: 
+1. Run the shiny app: 
 ```
 > runGitHub("NFL-Team-Similarity-Tool", "callancapitolo17")
 ```
